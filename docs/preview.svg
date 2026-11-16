@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-labelledby="title desc">
+  <title id="title">Bilingual ICP exemption declaration and signed PDF</title>
+  <desc id="desc">A bilingual letter page on the left, an arrow, and a signed PDF document with an approval mark on the right.</desc>
+
+  <!-- Left: bilingual letter page -->
+  <rect x="64" y="44" width="224" height="212" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="108" y="64" width="136" height="10" rx="5" fill="#334155"/>
+  <rect x="132" y="82" width="88" height="8" rx="4" fill="#94a3b8"/>
+
+  <rect x="88" y="108" width="52" height="6" rx="3" fill="#cbd5e1"/>
+  <rect x="152" y="108" width="84" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="88" y="124" width="52" height="6" rx="3" fill="#cbd5e1"/>
+  <rect x="152" y="124" width="104" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="88" y="140" width="52" height="6" rx="3" fill="#cbd5e1"/>
+  <rect x="152" y="140" width="72" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="88" y="156" width="52" height="6" rx="3" fill="#cbd5e1"/>
+  <rect x="152" y="156" width="92" height="6" rx="3" fill="#e2e8f0"/>
+
+  <rect x="88" y="182" width="176" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="88" y="194" width="176" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="88" y="206" width="128" height="6" rx="3" fill="#e2e8f0"/>
+
+  <!-- Chinese and English bodies use two restrained accent colors -->
+  <rect x="88" y="224" width="92" height="6" rx="3" fill="#bfdbfe"/>
+  <rect x="188" y="224" width="76" height="6" rx="3" fill="#c7e9d8"/>
+
+  <!-- Arrow -->
+  <path d="M308 150 H 344" fill="none" stroke="#2b6cb0" stroke-width="4" stroke-linecap="round"/>
+  <path d="M338 142 L 352 150 L 338 158 Z" fill="#2b6cb0"/>
+
+  <!-- Right: signed PDF -->
+  <path d="M392 64 H 512 L 544 96 V 236 A 8 8 0 0 1 536 244 H 392 A 8 8 0 0 1 384 236 V 72 A 8 8 0 0 1 392 64 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <path d="M512 64 L 544 96 H 512 Z" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="404" y="84" width="36" height="14" rx="3" fill="#b91c1c"/>
+
+  <rect x="404" y="116" width="104" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="404" y="128" width="88" height="6" rx="3" fill="#e2e8f0"/>
+  <rect x="404" y="140" width="96" height="6" rx="3" fill="#e2e8f0"/>
+
+  <!-- Signature line and ink stroke -->
+  <path d="M404 196 H 476" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M408 190 C 414 174, 420 204, 426 188 C 432 172, 438 202, 444 190 C 450 178, 456 196, 466 184" fill="none" stroke="#334155" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Approval mark -->
+  <circle cx="524" cy="224" r="20" fill="#2f855a"/>
+  <path d="M514 224 L 521 231 L 535 215" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

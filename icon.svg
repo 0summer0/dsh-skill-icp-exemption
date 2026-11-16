@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-labelledby="title desc">
+  <title id="title">ICP exemption declaration</title>
+  <desc id="desc">A declaration page with a folded corner and an approval check mark.</desc>
+  <path d="M9 4 H 21 L 29 12 V 30 A 2 2 0 0 1 27 32 H 9 A 2 2 0 0 1 7 30 V 6 A 2 2 0 0 1 9 4 Z" fill="#f8fafc" stroke="#334155" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M21 4 V 12 H 29" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="11" y="16" width="10" height="2" rx="1" fill="#94a3b8"/>
+  <rect x="11" y="21" width="7" height="2" rx="1" fill="#cbd5e1"/>
+  <circle cx="25" cy="26" r="7" fill="#2f855a" stroke="#ffffff" stroke-width="1.5"/>
+  <path d="M21.5 26.2 L 23.9 28.6 L 28.6 23.2" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

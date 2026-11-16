@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "ICP exemption declaration",
+    "description": "Drafts and generates the bilingual Apple App Store China ICP filing exemption declaration PDF for one standalone iOS app, including the signature image and the Developer Support flow. Requires Python 3 and Chrome or Chromium.",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "dsh-skill-icp-exemption",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness skill: draft and generate the bilingual Apple App Store China ICP filing exemption declaration (ICP 备案豁免申请声明) PDF for one standalone iOS app.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "skill",
+    "icp",
+    "icp-exemption",
+    "icp-filing",
+    "apple",
+    "app-store",
+    "china",
+    "备案",
+    "豁免",
+    "pdf"
+  ],
+  "license": "MIT",
+  "author": "0summer0",
+  "homepage": "https://github.com/0summer0/icp-exemption-skill",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0summer0/dsh-skill-icp-exemption.git"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.1 <0.3.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

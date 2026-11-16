@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "ICP 豁免声明",
+    "description": "为单个独立 iOS App 起草并生成中英双语的 Apple App Store 中国区 ICP 备案豁免申请声明 PDF，包含签名图处理与 Developer Support 流程。需要 Python 3 和 Chrome 或 Chromium。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}
