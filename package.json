@@ -1,6 +1,6 @@
 {
   "name": "dsh-skill-icp-exemption",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DeepSeek Harness skill: draft and generate the bilingual Apple App Store China ICP filing exemption declaration (ICP 备案豁免申请声明) PDF for one standalone iOS app.",
   "keywords": [
     "dsh",

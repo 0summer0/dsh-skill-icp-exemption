@@ -60,6 +60,11 @@ export function apply(ctx) {
       name: skillName,
       description,
       ...(data.whenToUse ? { whenToUse: data.whenToUse } : {}),
+      // `register()` fills invocation and provider, but the loader validates the
+      // returned definition for a string source, so a runtime contribution must
+      // set it explicitly. Omitting it made `skill({ name })` fail the first time.
+      source: 'runtime',
+      path: skillFile,
       content: body.trimStart(),
       resourceBase: { kind: 'directory', path: skillDir },
     }),
