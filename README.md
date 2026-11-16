@@ -13,10 +13,10 @@ It does not submit the request to Apple, does not upload documents, and is not l
 
 ## Install
 
-After this bundle is published:
-
-- DSH Web/Desktop: **Plugins → Discover**, add the market index URL, install **ICP exemption declaration**.
-- CLI: `dsh plugin --profile <profile> add dsh-skill-icp-exemption`.
+- DSH Web/Desktop: **Plugins → Discover → Add index source**, enter
+  `https://0summer0.github.io/dsh-plugin-market/index.json`, then install **ICP exemption declaration**.
+- CLI: `dsh plugin --profile <profile> add dsh-skill-icp-exemption` (once the npm package is published)
+  or install the Git source pinned by the index while only the Git entry is listed.
 - Local package: install this directory or its packed tarball through Plugin Manager.
 
 Enabling the bundle adds one plugin row. The `icp-exemption` skill appears in the session skill catalog; ask the agent to draft or generate the declaration for one app.
